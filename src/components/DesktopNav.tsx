@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FiSun } from "react-icons/fi";
 import { FaMoon } from "react-icons/fa";
 import { HiArrowLeftEndOnRectangle } from "react-icons/hi2";
-
+import app_logo from "../../public/img/app-logo.png";
 import CartInHeader from "./CartInHeader";
 
 type DesktopNavProps = {
@@ -16,7 +16,7 @@ const DesktopNav = ({handleToggleTheme}:DesktopNavProps)=>{
          <nav className="flex items-center gap-x-5 lg:gap-x-9 h-14">
             {/* <!-- Logo --> */}
             <div className="shrink-0">
-                <img src="/img/app-logo.png" alt="Golden Coffee"/>
+                <img src={app_logo} alt="Golden Coffee"/>
             </div>
             {/* <!-- Menu --> */}
             <ul className="flex gap-x-5 xl:gap-x-10 h-full [&>*]:hover:text-orange-300 text-xl text-gray-300 tracking-tightest [&>*]:leading-[56px]">

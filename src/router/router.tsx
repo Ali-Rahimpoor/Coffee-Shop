@@ -17,6 +17,6 @@ export const router = createBrowserRouter([
    }
 ],
 {
-   // basename:"/OnlineShop-coffee"
+   basename:"/Coffee-Shop"
 }
 )

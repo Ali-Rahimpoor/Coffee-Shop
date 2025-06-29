@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 import CartMobile from "./CartMobile";
 import { useSelector } from "react-redux";
 import type { RootState } from "../app/store";
-
+import Logo_img from '../../public/img/svgs/logo-type.svg'
 type MobileNavProps = {
     handleToggleTheme : ()=>void
 }
@@ -36,7 +36,7 @@ const MobileNav = ({handleToggleTheme}:MobileNavProps) => {
       </button>
       {/* Logo */}
         <div className="w-30">
-            <img src="/img/svgs/logo-type.svg" alt="logo" />
+            <img src={Logo_img} alt="logo" />
         </div>
       {/* Cart icon */}
       <button className="relative cart-icon" onClick={() => setIsCartOpen(true)}>
