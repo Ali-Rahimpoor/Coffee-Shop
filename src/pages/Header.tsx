@@ -29,10 +29,9 @@ const Header = ()=>{
         <DesktopNav handleToggleTheme={handleToggleTheme} />
     </header>
     {/* <!-- Header for Small Devices --> */}
-   <header className="flex z-50 md:hidden items-center justify-between  px-4 h-16 w-full bg-white dark:bg-zinc-700 ">
+   <header className="flex fixed z-50 md:hidden items-center justify-between  px-4 h-16 w-full bg-white dark:bg-zinc-700 ">
         <MobileNav handleToggleTheme={handleToggleTheme} />
    </header>
-    <div className="overlay"></div>
       </>
    )
 }

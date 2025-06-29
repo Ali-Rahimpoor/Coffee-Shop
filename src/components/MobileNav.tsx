@@ -41,7 +41,7 @@ const MobileNav = ({handleToggleTheme}:MobileNavProps) => {
       {/* Cart icon */}
       <button className="relative cart-icon" onClick={() => setIsCartOpen(true)}>
         <RiShoppingCart2Line className="w-8 h-8 dark:text-white ml-2" />
-        <span className="absolute -top-1 -right-1 bg-zinc-900 text-white text-xs rounded-full h-5 w-5 flex items-center justify-center">
+        <span className="absolute -top-2 -right-2 bg-zinc-700 dark:bg-zinc-300 dark:text-black text-white text-sm rounded-full size-5 flex items-center justify-center">
                 {cartQty ?? 0}
               </span>
       </button>

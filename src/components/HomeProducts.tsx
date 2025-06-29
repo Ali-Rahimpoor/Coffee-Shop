@@ -72,7 +72,7 @@ const HomeProducts = ({products}:HomeProductsProps)=>{
                         <div className="mt-2.5 flex items-center justify-between">
                             <div className="flex items-center gap-x-2.5 md:gap-x-3">
                                 {/* <!-- ShoppingCart --> */}
-                                <button onClick={()=>handleAddToCart(product)} className="flex-center w-[26px] h-[26px] md:w-9 md:h-9 rounded-full text-gray-400 bg-gray-100 dark:bg-zinc-800 hover:bg-teal-600 dark:hover:bg-emerald-500 hover:text-white transition-all cursor-pointer">
+                                <button onClick={()=>handleAddToCart(product)} className="flex-center w-[46px] h-[46px] md:w-15 md:h-12 rounded-full text-gray-400 bg-gray-100 dark:bg-zinc-800 hover:bg-teal-600 dark:hover:bg-emerald-500 hover:text-white transition-all cursor-pointer">
                                     <TbShoppingCartDollar className="md:w-6 md:h-6 w-4 h-4"/>
                                 </button>
                                 {/* <!-- ArrowRightLeft --> */}

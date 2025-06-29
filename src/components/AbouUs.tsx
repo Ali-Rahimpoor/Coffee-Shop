@@ -30,7 +30,7 @@ const AboutUs = ()=>{
               {/* <!-- Services --> */}
                <section className="services mb-20">
                <div className="container">
-                <div className="grid grid-cols-2 place-items-center md:justify-between md:flex gap-3">
+                <div className="grid grid-cols-2 place-items-center md:justify-between md:flex gap-5">
                     <div className="text-zinc-800  dark:text-white flex md:flex-row flex-col gap-x-2">
                     {/* <!-- img --> */}
                     <div>
